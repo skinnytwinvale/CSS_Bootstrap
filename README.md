@@ -39,6 +39,7 @@ In order to make use of the grid system, you first need to have a container, cre
 
 <img width="853" alt="Screenshot 2023-03-25 at 3 22 47 PM" src="https://user-images.githubusercontent.com/101606295/227737348-a9bd214f-750e-4e66-8495-be5fe7771e64.png">
 
+## Margin and Padding
 
 
 
