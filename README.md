@@ -11,3 +11,31 @@ You've probably noticed that the link tag you copy from the Bootstrap site has s
 requesting files from a CDN, through a feature called Subresource Integrity. 
 
 CDN stands for Content Delivery Network, and it's essentially a network of servers that are used to deliver content to users around the globe. Having a network of servers makes that delivery faster, because you can deliver content from whichever server is geographically closest to the user. It also provides a safeguard in case one of the servers goes down.
+
+## Layout
+
+The most commonly used feature of Bootstrap is its grid system. With the right combination of CSS classes, you can build sophisticated grids (based on 12 columns) to lay out your page. Bootstrap will handle the responsive design based on the classes that you choose.
+
+## Containers
+
+Any layout that you build with Bootstrap should begin with a container. 
+Containers are the most basic layout element in Bootstrap and are required when using our default grid system
+
+A container is just a div with one of two classes: 
+container elements have fixed widths that change at a finite number of break points
+container- fluid elements always take up 100% of the available width
+
+## The Grid System
+
+A grid system is a way to organize the content on your page in terms of rows and columns.
+
+Bootstrap's grid system uses a twelve-column grid layout. This means that when you're using the system, you can specify to bootstrap how many columns you want your content to take up, out of a possible maximum of twelve columns.
+
+In order to make use of the grid system, you first need to have a container, created with either the container or container-fluid class. After that, you can create a row for the grid using the row class. Inside of the rows, you should only place columns classes, and finally, your content will live inside of the columns.
+
+
+
+<img width="613" alt="Screenshot 2023-03-25 at 3 05 25 PM" src="https://user-images.githubusercontent.com/101606295/227736573-c2f9c679-03fe-45da-96ec-aff1a9a4a015.png">
+
+
+
