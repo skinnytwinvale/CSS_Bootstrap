@@ -16,7 +16,7 @@ CDN stands for Content Delivery Network, and it's essentially a network of serve
 
 The most commonly used feature of Bootstrap is its grid system. With the right combination of CSS classes, you can build sophisticated grids (based on 12 columns) to lay out your page. Bootstrap will handle the responsive design based on the classes that you choose.
 
-## Containers
+### Containers
 
 Any layout that you build with Bootstrap should begin with a container. 
 Containers are the most basic layout element in Bootstrap and are required when using our default grid system
@@ -25,7 +25,7 @@ A container is just a div with one of two classes:
 container elements have fixed widths that change at a finite number of break points
 container- fluid elements always take up 100% of the available width
 
-## The Grid System
+### The Grid System
 
 A grid system is a way to organize the content on your page in terms of rows and columns.
 
@@ -39,7 +39,13 @@ In order to make use of the grid system, you first need to have a container, cre
 
 <img width="853" alt="Screenshot 2023-03-25 at 3 22 47 PM" src="https://user-images.githubusercontent.com/101606295/227737348-a9bd214f-750e-4e66-8495-be5fe7771e64.png">
 
-## Margin and Padding
+### Margin and Padding
 
+Bootstrap comes with a number of classes to help add space between elements on the page. These elements all come in the form {property}{sides}-{size} or {property}{sides}-{breakpoint}-{size}, where property, sides, breakpoint, and size are one of the following:
+
+- property: m (margin) or p (padding)
+- sides: t (top), b (bottom), l (left), r (right), x (left and right), or y (top and bottom). You can also leave this value blank to target all directions.
+- breakpoint: sm, md, lg, or xl. You can also leave this value blank to target xs.
+- size: a number from 0 to 5. Larger numbers indicate more space.
 
 
