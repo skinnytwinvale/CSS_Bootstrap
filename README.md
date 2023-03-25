@@ -48,4 +48,6 @@ Bootstrap comes with a number of classes to help add space between elements on t
 - breakpoint: sm, md, lg, or xl. You can also leave this value blank to target xs.
 - size: a number from 0 to 5. Larger numbers indicate more space.
 
+### Typography and buttons
+
 
